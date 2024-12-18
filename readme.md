@@ -27,7 +27,7 @@ This project is developed for **iCe Smart Home and Office Systems**. It is a sof
    pip install -r requirements.txt
    ```
 
-3. Add the `Alanya.csv` file to the project directory and define the device information in this file.
+3. Add the `Table.csv` file to the project directory and define the device information in this file.
 
 ## Usage
 1. To start the software, run the following command:

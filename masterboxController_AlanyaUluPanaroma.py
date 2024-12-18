@@ -23,7 +23,7 @@ MQTT_PORT = 1883
 MQTT_KEEPALIVE = 5
 
 # CSV Dosya Yolu
-CSV_FILE_PATH = "./Alanya.csv"
+CSV_FILE_PATH = "./Table.csv"
 
 import sounddevice as sd
 import numpy as np
