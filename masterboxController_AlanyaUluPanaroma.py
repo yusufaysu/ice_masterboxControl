@@ -22,6 +22,23 @@ MQTT_HOST = "icemqtt.com.tr"
 MQTT_PORT = 1883
 MQTT_KEEPALIVE = 5
 
+import os
+import sys
+
+def resource_path(relative_path):
+    """
+    Yazılımı Windowsa portlamak için pyinstallerın ve exe dosyasının dosya yolu,
+    linux ve macos dan farklı olduğu için işletim sisteminden direk belirtilen
+    dosyanın absolute pathini döndüren bir fonksyon.
+    İlgili link -> https://stackoverflow.com/questions/31836104/pyinstaller-and-onefile-how-to-include-an-image-in-the-exe-file
+    """
+    try:
+        base_path = sys._MEIPASS2
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 # CSV Dosya Yolu
 CSV_FILE_PATH = "./Table.csv"
 
