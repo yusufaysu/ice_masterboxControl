@@ -18,8 +18,8 @@ import numpy as np
 import time
 
 # MQTT Sunucu Ayarları
-MQTT_HOST = "icemqtt.com.tr"
-MQTT_PORT = 1883
+MQTT_HOST = ********  # MQTT sunucu adresi
+MQTT_PORT = ********  # MQTT sunucu portu
 MQTT_KEEPALIVE = 5
 
 import os
